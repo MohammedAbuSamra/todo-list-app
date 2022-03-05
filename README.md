@@ -1,7 +1,9 @@
 # todo-list-app-AbuGhassan
-#Check the project online [Todo List](https://mohammedabusamra.github.io/todo-list-app/)
+
+#Check the project online [Todo List](https://mohammedabusamra.github.io/todo-list-app/).
+
 #Project Description
-It's The to do list to organize work & life
+- It's The to do list to organize work & life
 
 #User Stories
 - A user can add a todo
