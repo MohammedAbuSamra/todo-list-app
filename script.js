@@ -154,16 +154,16 @@ function removeLocalTodos(todo) {
   localStorage.setItem("todos", JSON.stringify(todos));
 }
 
-//function to edit todos in local storage
-function editLocalTodos(oldValue, newValue) {
-    let todos;
-    if (localStorage.getItem("todos") === null) {
-        todos = [];
-    } else {
-        todos = JSON.parse(localStorage.getItem("todos"));
-    }
-    todos.splice(todos.indexOf(oldValue), 1, newValue);
-    localStorage.setItem("todos", JSON.stringify(todos));
-    }
-    
+// //function to edit todos in local storage
+// function editLocalTodos(oldValue, newValue) {
+//     let todos;
+//     if (localStorage.getItem("todos") === null) {
+//         todos = [];
+//     } else {
+//         todos = JSON.parse(localStorage.getItem("todos"));
+//     }
+//     todos.splice(todos.indexOf(oldValue), 1, newValue);
+//     localStorage.setItem("todos", JSON.stringify(todos));
+//     }
+
 
